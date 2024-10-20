@@ -150,3 +150,7 @@ footer {
     align-items: center;
   }
 }
+
+article {
+  padding: 15px;
+}
