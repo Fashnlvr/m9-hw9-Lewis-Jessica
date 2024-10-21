@@ -132,7 +132,7 @@ footer {
   color: var(--off-white);
 }
 
-@media screen and (min-width: 501px){
+@media screen and (max-width: 500px){
   nav {
     display: flex;
     flex-direction: column;
@@ -143,58 +143,44 @@ footer {
   nav a {
     margin: 10px 0;
     font-size: 1.3rem;
+    align-items: center;
   }
 
   nav a.logo {
+    margin: 0;
     font-size: 1.5rem;
     margin-bottom: 10px;
   }
 
-  article {
-    padding: 15px;
+  main article {
+    padding: 10px 25px;
   }
   
-  .hero .call-to-action {
-    font-size: 1.2rem;
+  section.hero > .call-to-action {
+    font-size: 1.5rem;
     padding: 10px;
   }
 
-  .hero button {
-    padding: 10px 20px;
+  section.hero > button {
+    padding: 10px;
     font-size: 1rem;
   }
 
-  article img {
+  section.hero {
+    margin-bottom: 10px;
+  }
+
+  main article img {
     display: block;
     margin: 15px auto;
-    float: none;
+    float: center;
     width: 100%;
+    align-items: center;
   }
 
-  main p, h1, h2 {
-    margin-bottom: 20px;
-  }
-
-  main > section.herp {
-    height: auto;
+  main article {
+    margin-bottom: 10px;
   }
 }
 
-@media screen and (max-width: 500px){
-  .hero .call-to-action {
-    font-size: 1rem;
-  }
 
-  .hero button {
-    padding: 8px 16px;
-    font-size: 0.9rem;
-  }
-
-  header a {
-    font-size: 1.1rem;
-  }
-
-  article {
-    padding: 10px;
-  }
-}
