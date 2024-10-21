@@ -155,6 +155,10 @@ footer {
   main article {
     padding: 10px 25px;
   }
+
+  main article > p {
+    margin-bottom: 5px;
+  }
   
   section.hero > .call-to-action {
     font-size: 1.5rem;
@@ -172,7 +176,7 @@ footer {
 
   main article img {
     display: block;
-    margin: 15px auto;
+    margin: auto;
     float: center;
     width: 100%;
     align-items: center;
